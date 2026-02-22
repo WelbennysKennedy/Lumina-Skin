@@ -1,5 +1,10 @@
 # Lumina Skin — Landing Page de Beleza (React + Vite)
 
+[![Deploy to GitHub Pages](https://github.com/WelbennysKennedy/Lumina-Skin/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/WelbennysKennedy/Lumina-Skin/actions/workflows/deploy-pages.yml)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Online-22c55e?style=flat&logo=githubpages&logoColor=white)](https://welbennyskennedy.github.io/Lumina-Skin/)
+[![Vite](https://img.shields.io/badge/Vite-7.x-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![React](https://img.shields.io/badge/React-19.x-61DAFB?style=flat&logo=react&logoColor=111827)](https://react.dev/)
+
 Landing page moderna e responsiva para estúdio de beleza, com foco em experiência visual, animações suaves, cards de serviços, galeria e chat flutuante.
 
 ## 🌐 Acesso online
