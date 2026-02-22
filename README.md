@@ -2,6 +2,10 @@
 
 Landing page moderna e responsiva para estúdio de beleza, com foco em experiência visual, animações suaves, cards de serviços, galeria e chat flutuante.
 
+## 🌐 Acesso online
+
+- Site publicado (GitHub Pages): https://welbennyskennedy.github.io/Lumina-Skin/
+
 ## Preview
 
 ### Desktop
