@@ -15,21 +15,21 @@ const services: Service[] = [
     title: 'EDITORIAL MAKEUP',
     description: 'High-fashion looks for photoshoots, runway, and campaigns. Bold, artistic, unforgettable.',
     price: 'From $250',
-    image: '/images/service 1.jpeg'
+    image: `${import.meta.env.BASE_URL}images/service 1.jpeg`
   },
   {
     icon: <Heart className="w-5 h-5 sm:w-6 sm:h-6" />,
     title: 'BRIDAL BEAUTY',
     description: 'Your perfect look for the most important day. Elegant, timeless, radiant.',
     price: 'From $400',
-    image: '/images/mekup 7.png'
+    image: `${import.meta.env.BASE_URL}images/mekup 7.png`
   },
   {
     icon: <GraduationCap className="w-5 h-5 sm:w-6 sm:h-6" />,
     title: 'MASTER CLASSES',
     description: 'Learn techniques from industry professionals. Elevate your skills.',
     price: 'From $150',
-    image: '/images/mekup 8.png'
+    image: `${import.meta.env.BASE_URL}images/mekup 8.png`
   }
 ];
 

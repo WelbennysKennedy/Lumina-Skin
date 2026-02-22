@@ -2,12 +2,12 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, ArrowLeft, X } from 'lucide-react';
 
 const galleryImages = [
-  { src: '/images/mekup 1.png', title: 'Ethereal Beauty', category: 'Editorial' },
-  { src: '/images/mekup 2.png', title: 'Green Goddess', category: 'Spa' },
-  { src: '/images/mekup 3.png', title: 'Natural Glow', category: 'Beauty' },
-  { src: '/images/mekup 4.png', title: 'Golden Hour', category: 'Editorial' },
-  { src: '/images/mekup 5.png', title: 'Fresh Face', category: 'Spa' },
-  { src: '/images/mekup 6.png', title: 'Bridal Dream', category: 'Bridal' },
+  { src: `${import.meta.env.BASE_URL}images/mekup 1.png`, title: 'Ethereal Beauty', category: 'Editorial' },
+  { src: `${import.meta.env.BASE_URL}images/mekup 2.png`, title: 'Green Goddess', category: 'Spa' },
+  { src: `${import.meta.env.BASE_URL}images/mekup 3.png`, title: 'Natural Glow', category: 'Beauty' },
+  { src: `${import.meta.env.BASE_URL}images/mekup 4.png`, title: 'Golden Hour', category: 'Editorial' },
+  { src: `${import.meta.env.BASE_URL}images/mekup 5.png`, title: 'Fresh Face', category: 'Spa' },
+  { src: `${import.meta.env.BASE_URL}images/mekup 6.png`, title: 'Bridal Dream', category: 'Bridal' },
 ];
 
 const Gallery = () => {

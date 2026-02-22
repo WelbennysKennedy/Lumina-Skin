@@ -137,7 +137,7 @@ const About = () => {
                 {/* Main image */}
                 <div className="relative overflow-hidden rounded-sm">
                   <img
-                    src="/images/mekup 8.webp"
+                    src={`${import.meta.env.BASE_URL}images/mekup 8.webp`}
                     alt="Makeup artistry"
                     className="w-full h-auto object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105"
                     style={{ transitionTimingFunction: 'var(--ease-expo-out)' }}

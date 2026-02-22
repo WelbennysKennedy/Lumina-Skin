@@ -84,7 +84,7 @@ const Preloader = ({ onComplete }: PreloaderProps) => {
             }}
           >
             <img
-              src="/images/makeup-brush.png"
+              src={`${import.meta.env.BASE_URL}images/makeup-brush.png`}
               alt="Makeup Brush"
               className="w-32 h-48 lg:w-40 lg:h-60 object-contain drop-shadow-2xl"
               style={{

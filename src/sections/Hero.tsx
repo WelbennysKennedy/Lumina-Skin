@@ -142,7 +142,7 @@ const Hero = () => {
               <div className="relative group cursor-pointer">
                 <div className="absolute inset-0 bg-gradient-to-t from-[#8B8B7A]/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-10 rounded-sm" />
                 <img
-                  src="/images/hero-turtle.jpg"
+                  src={`${import.meta.env.BASE_URL}images/hero-turtle.jpg`}
                   alt="Beauty portrait with turtle"
                   className="w-full h-auto object-cover rounded-sm shadow-2xl group-hover:scale-[1.02] group-hover:brightness-110 transition-all duration-600"
                   style={{ transitionTimingFunction: 'var(--ease-expo-out)' }}
@@ -179,7 +179,7 @@ const Hero = () => {
             >
               <div className="group cursor-pointer overflow-hidden rounded-sm">
                 <img
-                  src="/images/hero-mask.jpg"
+                  src={`${import.meta.env.BASE_URL}images/hero-mask.jpg`}
                   alt="Beauty treatment"
                   className="w-32 sm:w-40 md:w-48 lg:w-56 h-auto object-cover shadow-xl group-hover:scale-110 transition-transform duration-500"
                   style={{ transitionTimingFunction: 'var(--ease-expo-out)' }}
